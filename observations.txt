@@ -1,0 +1,50 @@
+Jacob Lucke
+COEN 174
+Lab 1
+
+- Part 1
+
+mkdir lab1exer1
+
+a) touch ...
+
+b) ls *.??
+
+c) ls *.{c,C}
+
+d) mv demo1.txt demo1.doc
+
+e) rename .txt .doc *.txt
+
+
+- Part 2
+
+a) grep '^[0-9]' ditty.txt
+
+b) grep '^[^0-9]' ditty.txt
+
+c) grep -E '^[0-9]+$' ditty.txt
+
+d) grep -E '^[0-9].*[^0-9]$|^[^0-9].*[0-9]$' ditty.txt
+
+e) tac data.txt > tacdata.txt
+
+f) cut -f 1-2 -d ',' allstaff.txt
+
+g) cut -f 1-2,4 -d ',' allstaff.txt > names_salaries.txt
+
+h) tr ',' ':' < names_salaries.txt > names_salaries2.txt
+
+i) tr -d '$' < names_salaries.txt
+
+j) rev data.txt
+
+k) paste empnames.txt cities.txt > empcities.txt
+
+
+- Part 3
+
+a) ls | grep -E '^[a-z].*[^0-9]$'
+
+b) ls | grep -E 'file[1-9]$|file[1][0-9]$|file[2][0-2]$'
+
